@@ -9,3 +9,7 @@ def ke_fahrenheit(c): return (c * 9/5) + 32
 def ke_reamur(c): return c * 4/5
 def ke_kelvin(c): return c + 273.15
 print("30C ke K:", ke_kelvin(30))
+
+def semua(c):
+    print(f"F: {(c * 9/5) + 32}, R: {c * 4/5}, K: {c + 273.15}")
+semua(30)
